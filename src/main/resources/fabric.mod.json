@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "creative-search-hotkeys",
+  "version": "${version}",
+  "name": "Creative Search Hotkeys",
+  "description": "Undoes what Mojang did in pre5 with creative search hotkeys.",
+  "authors": [
+    "Draylar"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/creative-search-hotkeys/icon.png",
+  "environment": "CLIENT",
+  "mixins": [
+    "creative-search-hotkeys.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.7+build.201",
+    "fabric": "*"
+  }
+}

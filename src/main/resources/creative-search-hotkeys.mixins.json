@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "draylar.creativesearchhotkeys.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "CreativeInventoryScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
